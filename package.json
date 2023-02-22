@@ -1,0 +1,29 @@
+{
+  "name": "mailchain-workshop-starter-node",
+  "version": "1.0.0",
+  "description": "A package to get your nodejs environment up and running for Mailchain workshops",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailchain/mailchain-workshop-starter-node.git"
+  },
+  "keywords": [
+    "mailchain",
+    "workshop",
+    "node"
+  ],
+  "author": "tboeckmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mailchain/mailchain-workshop-starter-node/issues"
+  },
+  "homepage": "https://github.com/mailchain/mailchain-workshop-starter-node#readme",
+  "dependencies": {
+    "@mailchain/sdk": "^0.15.1",
+    "dotenv": "^16.0.3"
+  }
+}
