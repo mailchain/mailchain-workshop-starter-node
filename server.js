@@ -13,18 +13,18 @@ const mailchain = Mailchain.fromSecretRecoveryPhrase(secretRecoveryPhrase);
 mailchain.user().then(async (user) => { 
     console.log(user)
     
-    const result = await mailchain.sendMail({
-        // change this to send to your recipients:
-        to: [ "0xbb56FbD7A2caC3e4C17936027102344127b7a112@ethereum.mailchain.com" ],
-        // change this to a Mailchain account or ethereum address registered in your Mailchain account
-        from: "0xbb56FbD7A2caC3e4C17936027102344127b7a112@ethereum.mailchain.com", 
-         subject: 'Sent via Mailchain',
-         content: {
-             text: 'Hello Mailchain 👋',
-             html: '<p>Hello Mailchain 👋</p>',
-         },
-     });
-     console.log(result);
+    // const result = await mailchain.sendMail({
+    //     // change this to send to your recipients:
+    //     to: [ "0xbb56FbD7A2caC3e4C17936027102344127b7a112@ethereum.mailchain.com" ],
+    //     // change this to a Mailchain account or ethereum address registered in your Mailchain account
+    //     from: "0xbb56FbD7A2caC3e4C17936027102344127b7a112@ethereum.mailchain.com", 
+    //      subject: 'Sent via Mailchain',
+    //      content: {
+    //          text: 'Hello Mailchain 👋',
+    //          html: '<p>Hello Mailchain 👋</p>',
+    //      },
+    //  });
+    //  console.log(result);
 
 });
 // **/
