@@ -13,7 +13,7 @@ It includes:
 
 ## Instructions
 
-1. Fork this repository
+1. Fork this repository, then check the repository out
 1. Install packages by running:
 
    ```bash
